@@ -1,0 +1,27 @@
+ /*Comentário CSS*/
+        /* Tag = todos os elementos assumem o estilo */
+        /*https://www.w3schools.com/cssref/func_var.php*/
+        /* https://www.w3schools.com/cssref/css_selectors.php */
+        :root{
+            --verde:#00ff00;
+            --vermelha: #ff0000;
+            --azulim:#0000ff;
+            --corpo: #222222;
+        }
+        body{ background-color:var(--corpo)}
+        p{ color: #0000ff;}
+        /* Classe usa . no CSS*/
+        /* .verde{color: #00ff00;} */
+        .verde{color: var(--verde)}
+        .vermelho{color: var(--vermelha)}
+        img{
+            width: 250px;
+            height: auto;
+            border: 5px solid var(--verde);
+            border-radius: 10px 20px 30px 80px;
+            /* box-shadow: 15px #fff; */
+        }
+        a{ color: #ccc; background-color: coral !important;}
+        a:hover{ color: #f5f100;}
+
+        /* a{ color: red;background-color: #c8ff00;} */

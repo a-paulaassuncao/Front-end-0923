@@ -1,0 +1,123 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h3>Aula sobre formulários HTML</h3>
+    <fieldset>
+        <legend>Preencha seus dados</legend>
+        <form method="get" action=""> <!-- method="get" = mais seguro -->
+
+            <p>
+                <label>Nome: </label>
+                <input type="text" name="nome" placeholder="Digite seu nome" required autofocus>
+            </p>
+
+            <p>
+                <label>E-mail: </label>
+                <input type="email" name="email" placeholder="Digite seu e-mail" required>
+            </p>
+
+            <p>
+                <label>Seu site: </label>
+                <input type="url" name="url" placeholder="Digite seu site" required>
+            </p>
+
+            <p>
+                <label>Insira sua senha: </label>
+                <input type="password" name="password" placeholder="Digite sua senha" required>
+            </p>
+
+            <p>
+                <label for="txt">Insira uma mensagem: </label>
+                <textarea name="txt" id="txt" placeholder="Digite sua mensagem" required></textarea>
+            </p>
+
+            <p>
+                <label>Escolha um arquivo: </label>
+                <input type="file" name="file">
+            </p>
+            
+            <p>
+                <label>Pesquisar: </label>
+                <input type="search" name="search">
+            </p>
+
+            <p>
+                <label>Número: </label>
+                <input type="number" name="number">
+            </p>
+
+            <p>
+                <label>Vloume ou quantidade: </label>
+                <input type="range" name="range">
+            </p>
+
+            <p>
+                <label>Cor: </label>
+                <input type="color" name="color">
+            </p>
+
+            <p>
+                <label>Data de Nascimento: </label>
+                <input type="date" name="date">
+            </p>
+
+            <p>
+                <label>Data de Nascimento: </label>
+                <input type="datetime-local" name="datetime-local">
+            </p>
+
+            <hr>
+            <h3>Radio Button</h3>
+            <p>
+                <input type="radio" id="maior" name="idade" value="maior">
+                <label for="maior">Maior de Idade - 18 anos</label>
+
+                <input type="radio" id="menor" name="idade" value="menor">
+                <label for="menor">Menor de Idade - 18 anos</label>
+            </p>
+            <hr>
+            <h3>Checkbox</h3>
+            <p>
+                <label>
+                    <input type="checkbox" id="checkbox1" name="elementos" value="HTML">HTML
+                </label>
+                
+                <label>
+                    <input type="checkbox" id="checkbox2" name="elementos" value="CSS">CSS
+                </label>
+                
+                <label>
+                    <input type="checkbox" id="checkbox3" name="elementos" value="JS">JS
+                </label>    
+            </p>
+
+            <hr>
+            <h3>Cursos - Select</h3>
+            <p>
+                <label for="cursos">Escolha um curso: </label>
+                <select name="cursos" id="cursos">
+                    <option value="curso1">HTML</option>
+                    <option value="curso2">CSS</option>
+                    <option value="curso3">JS</option>
+                    <option value="curso4">React JS</option>
+                    <option value="curso5">Node</option>
+                </select>
+            </p>
+
+            <p>
+                <label>Telefone: </label>
+                <input type="tel" name="tel" pattern="^\d{2}\d{5}\d{4}$" placeholder="DD NNNNNN-NNNN" required>
+            </p>
+
+
+            <!-- BOTÕES -->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </fieldset> <!-- Moldura do form -->
+</body>
+</html>
