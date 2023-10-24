@@ -1,0 +1,14 @@
+#container{
+    background-color: #585858;
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+}
+
+#a {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+}
