@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: #cdcdcd;
+}
+
+#box-a {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #cddb4d;
+    float: left;
+    padding: 8px;
+    overflow: auto;
+}
+
+#box-b {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #81df81;
+    float: left;
+}
+
+#box-b #img1 {
+    border-radius: 50%;
+    position: relative;
+    margin: 20px 75px;
+    padding: 8px
+}
+
+#box-c {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #ed7dcd;
+    float: left;
+}
+
+#box-c #card {
+    height: 90%;
+    border: 1px solid #000000;
+    margin: 8px 4px;
+}
+
+#box-c #card #foto2 {
+    position: relative;
+    margin: 40px 75px;
+    border-radius: 50%;
+}
+
+#box-c #card #btn {
+    font-size: 18px;
+    color: #fff;
+    padding: 6px 12px;
+    background-color: #615ea1;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0 0 0 25%;
+}
+
+#box-c #card #btn:hover {
+    color: #615ea1;
+    background-color: #fff;
+}
+
+#box-d {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #f2ab7e;
+    float: left;
+}
