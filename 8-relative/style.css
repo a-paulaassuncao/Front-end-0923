@@ -4,6 +4,33 @@
     box-sizing: border-box;
 }
 
+/* Menu */
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+header #logo {
+    width: 60px;
+    height: 60px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: nonee;
+    align-items: center;
+}
+
+header ul li a{
+    align-content: space-between;
+}
+
+/* Container */
 #container {
     position: relative;
     width: 800px;

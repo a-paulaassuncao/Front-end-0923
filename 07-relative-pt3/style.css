@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:wght@300;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#container {
+    position: relative;
+    width: 1200px;
+    height: 1100px;
+}
+
+header {
+    position: relative;
+    width: 1200px;
+    height: 150px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+    letter-spacing: 4px;
+    font-size: 42px;
+    padding: 50px 0;
+}
+
+.perfil {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 500px;
+}
+
+.perfil:hover {
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#ft-perfil-1 {
+    position: relative;
+    border-radius: 100px;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+#ft-perfil-2 {
+    position: relative;
+    border-radius: 100px;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+#ft-perfil-3 {
+    position: relative;
+    border-radius: 100px;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.testimony {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 100px 10px 20px 10px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.name {
+    text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 0 0 12px 0;
+}
+
+.ocupation {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12;
+    color: #d5d2d2;
+}
+
+#img {
+    position: relative;
+    width: 1200px;
+    height: 400px;
+}
+
+.pictures {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 400px;
+}
