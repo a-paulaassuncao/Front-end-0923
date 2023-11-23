@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700;9..144,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+    /* width: fit-content; */
+}
+
+/*PRÉ-DEFINIÇÕES*/
+
+.section-p{
+    padding: 80px 0px;
+}
+
+/*---------------------*/
+
+/*HEADER*/
+
+header{
+    height: 100px;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    margin: 0 12px;
+    padding: 8px 16px;
+    background-color: cadetblue;
+    color: #fff;
+    border-radius: 4px;
+}
+
+header nav ul li a:hover{
+    background-color: rgb(49, 81, 82);
+}
+
+/*---------------------*/
+
+/*BANNER*/
+
+#banner{
+    width: 100vw;
+    height: 80vh;
+}
+
+/*---------------------*/
+
+/*CARDS*/
+
+#cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #cfcfcf;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    height: 350px;
+    background-color: #fff;
+    border: 1px solid rgb(161, 161, 161);
+    margin: 0 16px;
+    padding: 0 60px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card i span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.card p{
+    text-align: center;
+    text-align: justify;
+    padding: 20px 0;
+}
+
+.card h3{
+    text-align: center;
+    font-weight: 900;
+    color: orangered;
+}
+
+/*---------------------*/
+
+/*CONTACT*/
+#contact{
+    display: flex;
+}
+
+#contact-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    padding: 0 80px;
+}
+
+#contact-left #information h2{
+    text-align: center;
+    font-size: 36px;
+    padding: 28px 0;
+}
+
+#contact-left #information p{
+    text-align: center;
+    padding: 20px 0;
+}
+
+#contact-left #form form{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#contact-left #form form input[type="text"]{
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: orangered;
+    width: 100%;
+}
+
+#contact-left #form form input[type="email"]{
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: orangered;
+    width: 100%;
+}
+
+#contact-left #form form input[type="tel"]{
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: orangered;
+    width: 100%;
+}
+
+#contact-left #form form textarea{
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: orangered;
+    width: 100%;
+}
+
+#contact-left #form form a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: orangered;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 80px;
+    margin: 20px 0;
+}
+
+#contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+#contact-right #map iframe{
+    margin: 20px 0;
+}
+
+#contact-right ul{
+    margin: 20px 0;
+}
+
+#contact-right ul li{
+    list-style: none;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+/*---------------------*/
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    background-color: #cfcfcf;
+    text-align: center;
+}
+
+footer p{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}

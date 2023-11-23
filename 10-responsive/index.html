@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Ana Paula">
+
+    <!--FONTES/ICONS-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!--RESPONSIVE CSS-->
+    <link rel="stylesheet" href="responsive.css" type="text/css">
+    <title>Responsive Test</title>
+</head>
+<body>
+    <header>
+        <h2>LOGO</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Serviços</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <img id="banner" src="img/banner.jpg" alt="">
+    </section>
+
+    <section class="section-p">
+        <div id="cards">
+            <div class="card">
+                <i><span class="material-symbols-outlined">
+                    home
+                    </span></i>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero beatae, adipisci, deserunt quisquam laboriosam reprehenderit error ipsam quaerat impedit delectus numquam a cumque quo tempora repellendus ratione hic aspernatur amet?</p>
+                <h3>Nossa meta</h3>
+            </div>
+            <div class="card">
+                <i><span class="material-symbols-outlined">
+                    fluorescent
+                    </span></i>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero beatae, adipisci, deserunt quisquam laboriosam reprehenderit error ipsam quaerat impedit delectus numquam a cumque quo tempora repellendus ratione hic aspernatur amet?</p>
+                <h3>Ideias para o futuro</h3>
+            </div>
+            <div class="card">
+                <i><span class="material-symbols-outlined">
+                    assured_workload
+                    </span></i>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero beatae, adipisci, deserunt quisquam laboriosam reprehenderit error ipsam quaerat impedit delectus numquam a cumque quo tempora repellendus ratione hic aspernatur amet?</p>
+                <h3 id="text-3">Ética e Responsabilidade</h3>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div id="contact-left">
+            <div id="information">
+                <h2>Sobre nós</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim corrupti ab itaque quo dolorum laudantium officia, consectetur et dolore error explicabo eligendi cumque modi accusantium ea molestiae ex, ipsum aliquam.</p>
+                <ul>
+                    <li>Atendimento rápido</li>
+                    <li>Prestação de serviços de qualidade</li>
+                    <li>Garantia</li>
+                    <li>Segurança no pagamento</li>
+                    <li>Produtos e Serviços sempre com o mais atualizado que há no mercado atual</li>
+                </ul>
+            </div>
+            <div id="form">
+                <form id="meuForm">
+                    <input type="text" name="Cliente" placeholder="Insira seu nome">
+                    <input type="text" name="E-mail" placeholder="Insira seu e-mail">
+                    <input type="text" name="Phone" placeholder="Insira seu contato (XX) XXXX-XXXX">
+                    <textarea name="description" cols="30" rows="10"></textarea>
+                    <button type="submit" id="btn-form">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div id="contact-right">
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119339.94020988082!2d-49.464757886907606!3d-20.816633801121228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bdad614c2df789%3A0x8f2fb0f070642c09!2zU8OjbyBKb3PDqSBkbyBSaW8gUHJldG8sIFNQ!5e0!3m2!1spt-BR!2sbr!4v1699462236931!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <ul>
+                <li>
+                    <i></i>
+                    <p id="zap">WhatsApp (XX) XXXX-XXXX</p>
+                </li>
+                <li>
+                    <i></i>
+                    <p id="insta">Instagram @XXXXXXXX</p>
+                </li>
+                <li>
+                    <i></i>
+                    <p id="endereco">Endereço: Rua XXXXXXXXXXX, X, Bairro X - São José do Rio Preto SP/Brasil</p>
+                </li>
+                <li>
+                    <i></i>
+                    <p id="email">E-mail: XXXX@XXXXX.com.br</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>Todos os direitos reservados &copy;</p>
+    </footer>
+
+    <div id="zapflutua" style="position:fixed; bottom: 20px; right: 20px;">
+        <input type="text" id="zapInput" placeholder="Digite a MSG">
+        <button id="btnZap">Enviar</button>
+    </div>
+
+    <script src="motor.js"></script>
+</body>
+</html>
